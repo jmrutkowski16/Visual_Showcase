@@ -1,0 +1,37 @@
+h1, h3 {
+    font-family: 'Prata', serif;
+}
+    
+.container {
+    background-color: black;
+    padding: 3em;
+    margin-bottom: 2em;
+}
+    
+.header {
+    margin-top: 2em;
+    margin-left: 9em;
+    margin-bottom: 1em;
+}
+    
+img {
+  max-width: 100%;
+  height: auto;
+  opacity: .75;
+    z-index: 1;
+}
+
+.container img:hover{
+  opacity: 1;
+  z-index: 2;
+  -moz-transform: scale(3);
+  -webkit-transform: scale(3);
+  -o-transform: scale(3);
+  -ms-transform: scale(3);
+  transform: scale(3);
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
